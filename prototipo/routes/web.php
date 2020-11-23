@@ -11,6 +11,11 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/imoveis', 'PropertyController@index');
+Route::get('/imoveis/novo', 'PropertyController@create');
