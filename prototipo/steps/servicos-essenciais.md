@@ -7,6 +7,8 @@
 php artisan make:mail welcomeYakso
 
 php artisan vendor:publish --tag=laravel-mail
+
+php artisan make:controller MailController
 ```
 
 ## Fila e Processamento de Jobs
@@ -30,3 +32,4 @@ Cria um job
 ```
 php artisan make:job welcomeYakso
 ```
+
