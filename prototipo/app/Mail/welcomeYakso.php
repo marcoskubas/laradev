@@ -9,6 +9,8 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 
 class welcomeYakso extends Mailable
 {
+    //implements ShouldQueue //Envia para a fila sempre
+
     use Queueable, SerializesModels;
 
     private $user;

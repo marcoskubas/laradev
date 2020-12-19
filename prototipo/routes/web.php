@@ -21,4 +21,5 @@ Route::get('/imoveis', 'PropertyController@index');
 Route::get('/imoveis/novo', 'PropertyController@create');
 
 Route::get('/email', 'MailController@email');
+Route::get('/email-queue', 'MailController@emailQueue');
 
